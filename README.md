@@ -1,3 +1,5 @@
 https://canitbeing.github.io/privacy/
 
 https://canitbeing.github.io/privacy/FittingsSuite/
+
+https://canitbeing.github.io/privacy/CapacitySuite/
