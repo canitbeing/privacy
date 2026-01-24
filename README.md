@@ -15,3 +15,5 @@ https://canitbeing.github.io/privacy/steelshape/
 https://canitbeing.github.io/privacy/hwpxconverter/
 
 https://canitbeing.github.io/privacy/caffeine/
+
+https://canitbeing.github.io/privacy/pipe/
