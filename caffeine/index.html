@@ -34,17 +34,13 @@
     <!-- Preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-
-        @font-face {
-            font-family: 'Outfit';
-            src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
         }
 
         body {
@@ -221,16 +217,15 @@
                 <h2 class="section-title">3. AUTO BACKUP</h2>
                 <div class="content-box">
                     <p class="content-text">
-                        Your data may be automatically backed up via Android Auto Backup if enabled in your device
-                        settings.
+                        Android Auto Backup is disabled for privacy in this app.
                     </p>
-                    <p class="list-item">• Check Settings > Google > Backup on your device</p>
-                    <p class="list-item">• Backups are stored in your Google account</p>
-                    <p class="list-item">• Backups are encrypted and protected by Google</p>
+                    <p class="list-item">• The app does not rely on Android Auto Backup for your caffeine records</p>
+                    <p class="list-item">• You can manually export your records to a JSON file for safekeeping</p>
+                    <p class="list-item">• Manual export gives you direct control over when a backup is created</p>
                     <p class="content-text"></p>
                     <p class="content-text">
-                        This feature is managed by your device's operating system, not by the app. You can disable this
-                        feature in your device settings.
+                        Manual export is managed from within the app rather than through Android's automatic backup
+                        system.
                     </p>
                 </div>
             </section>
@@ -244,7 +239,7 @@
                     </p>
                     <p class="list-item">• Export: Save all caffeine records to a JSON file</p>
                     <p class="list-item">• Import: Restore data from a previously exported JSON file</p>
-                    <p class="list-item">• Exported files are saved to your device's Download folder</p>
+                    <p class="list-item">• The selected save location depends on your device's file saving flow</p>
                     <p class="content-text"></p>
                     <p class="content-text">
                         This feature allows you to backup your data manually or transfer it to another device.
@@ -258,8 +253,8 @@
                 <div class="content-box">
                     <p class="content-text">
                         This app uses <span class="bold-text">Google Mobile Ads (AdMob)</span> to display
-                        advertisements. AdMob may collect and use data to provide personalized ads and analyze ad
-                        performance.
+                        advertisements. AdMob may collect and use data for ad delivery, measurement, attribution, and
+                        related advertising operations.
                     </p>
                     <p class="content-text" style="margin-top: 12px;">
                         <span class="bold-text">Data collected by AdMob may include:</span>
@@ -290,8 +285,9 @@
                     <p class="content-text">
                         This application uses minimal permissions:
                     </p>
+                    <p class="list-item">• Notification permission (Android 13+): Optional for Cutoff Reminder alerts</p>
                     <p class="list-item">• Storage (Android 9 and below): For JSON export/import functionality</p>
-                    <p class="list-item">• AD_ID (Android 13+): For personalized advertising</p>
+                    <p class="list-item">• AD_ID: For Google Mobile Ads measurement and attribution support</p>
                     <p class="content-text"></p>
                     <p class="content-text">
                         On Android 10 and above, storage permission is not required due to Scoped Storage. We do not
@@ -324,7 +320,7 @@
                     <p class="content-text">
                         Because this app processes data locally without external transmission:
                     </p>
-                    <p class="list-item">• There are no network security risks for your data</p>
+                    <p class="list-item">• Your caffeine records are not uploaded to the Developer's servers</p>
                     <p class="list-item">• Local data follows your device's security policies</p>
                     <p class="list-item">• Data remains under your complete control</p>
                     <p class="list-item">• The app follows industry-standard security best practices</p>
@@ -336,18 +332,20 @@
                 <h2 class="section-title">9. DATA SAFETY SUMMARY</h2>
                 <div class="content-box">
                     <p class="content-text">
-                        <span class="bold-text">Data Collection:</span> Minimal data collected by AdMob (Advertising ID)
+                        <span class="bold-text">Data Collection:</span> Caffeine records stay on-device; limited ad-related
+                        data may be processed by AdMob
                     </p>
                     <p class="content-text">
-                        <span class="bold-text">Data Sharing:</span> Data shared with Google for advertising purposes
-                        only
+                        <span class="bold-text">Data Sharing:</span> Ad-related data may be shared with Google Mobile Ads
+                        services
                     </p>
                     <p class="content-text">
                         <span class="bold-text">Data Encryption:</span> Communications with Google services are
                         encrypted
                     </p>
                     <p class="content-text">
-                        <span class="bold-text">Data Deletion:</span> Users can reset Advertising ID in device settings
+                        <span class="bold-text">Data Deletion:</span> App records can be deleted in-app; Advertising ID
+                        controls are available in device or Google settings
                     </p>
                 </div>
             </section>
@@ -374,7 +372,6 @@
                         When privacy policy changes occur:
                     </p>
                     <p class="list-item">• New policies will be provided through app updates</p>
-                    <p class="list-item">• Important changes will be communicated via in-app notifications</p>
                     <p class="content-text" style="margin-top: 12px;">
                         Your continued use of the app after changes constitutes acceptance of the updated policy.
                     </p>
@@ -414,7 +411,7 @@
                     <p class="content-text">
                         This Privacy Policy takes effect from the time of app installation and use.
                     </p>
-                    <p class="last-updated">Last Updated: January 25, 2026</p>
+                    <p class="last-updated">Last Updated: April 11, 2026</p>
                 </div>
             </section>
         </main>
